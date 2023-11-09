@@ -38,3 +38,25 @@ video {
   block-size: auto;
   vertical-align: middle;
 }
+.nav {
+  font-family: droid-sans, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 78.6%; /* 17.292px */
+  color: var(--Naranja-Cempasuchil, #ff9e22);
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width: 991px) {
+  .nav {
+    display: none;
+  }
+}
+
+.burger_menu {
+  display: flex;
+  justify-self: right;
+}
