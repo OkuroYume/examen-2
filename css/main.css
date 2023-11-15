@@ -23,7 +23,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
+  font-family: droid-sans, sans-serif;
   font-size: 1rem;
   line-height: 1.25;
 }
@@ -56,7 +56,75 @@ video {
   }
 }
 
-.burger_menu {
+.burger_container {
   display: flex;
-  justify-self: right;
+  justify-content: flex-end;
+}
+
+@media (min-width: 990px) {
+  .burger_menu {
+    display: none;
+  }
+}
+
+header {
+  background: #863b74;
+  padding-top: 26px;
+}
+
+main {
+  background: #fff8ef;
+}
+
+footer {
+  background: #863b74;
+}
+
+.intro {
+  color: var(--beige, #fff8ef);
+  font-family: droid-sans, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.523%;
+  margin: 58px 50px 42px 50px;
+  text-align: center;
+}
+
+.symbol img {
+  display: block;
+  width: 60%;
+  aspect-ratio: 0.5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.symbol {
+  margin-top: 116px;
+  margin-bottom: 121px;
+}
+
+.symbol_legend {
+  color: var(--Morado, var(--Morado-Pitaya, #863b74));
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 140.5%; /* 18.265px */
+  margin-top: 11px;
+}
+
+.title {
+  color: var(--Morado, var(--Morado-Pitaya, #863b74));
+  font-family: Taurunum Ferrum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 100%; /* 40px */
+}
+
+.text {
+  color: var(--Morado, var(--Morado-Pitaya, #863b74));
+  font-family: sroid sans, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
 }

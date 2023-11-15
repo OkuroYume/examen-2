@@ -4097,7 +4097,7 @@
   }
 }
 
-.row + .row {
+/*.row + .row {
   margin-top: 16px;
 }
 
