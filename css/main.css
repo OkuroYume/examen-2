@@ -127,6 +127,12 @@ footer {
   }
 }
 
+@media (max-width: 991px) {
+  .symbol {
+    margin-top: 100px;
+  }
+}
+
 .symbol_legend {
   color: var(--Morado, var(--Morado-Pitaya, #863b74));
   text-align: center;
@@ -154,12 +160,17 @@ footer {
   line-height: 100%; /* 40px */
 }
 
+.title img {
+  width: 15%;
+}
+
 .text {
   color: var(--Morado, var(--Morado-Pitaya, #863b74));
   font-family: sroid sans, sans-serif;
   font-size: 18px;
-  font-weight: 400;
   line-height: normal;
+  padding-right: 25px;
+  margin: 26px 0 76px 0;
 }
 
 .logo_container {
@@ -189,4 +200,46 @@ footer {
   .header_img_left {
     display: none;
   }
+}
+
+.display_mole {
+  background-color: #df486b;
+  width: fit-content;
+}
+
+.display_mole p {
+  color: var(--Beige, var(--beige, #fff8ef));
+  text-align: center;
+  font-family: Taurunum Ferrum;
+  font-size: 59px;
+  line-height: 90.523%; /* 53.408px */
+  padding: 35px 0 35px 0;
+}
+
+.display_pan {
+  background-color: #ff9e22;
+  width: fit-content;
+}
+
+.display_pan p {
+  color: var(--Beige, var(--beige, #fff8ef));
+  text-align: center;
+  font-family: Taurunum Ferrum;
+  font-size: 62px;
+  line-height: 90.523%; /* 56.124px */
+  padding: 35px 0 35px 0;
+}
+
+.display_champurrado {
+  background-color: #5cb5a1;
+  width: fit-content;
+}
+
+.display_champurrado p {
+  color: var(--Beige, var(--beige, #fff8ef));
+  text-align: center;
+  font-family: Taurunum Ferrum;
+  font-size: 65px;
+  line-height: 90.523%; /* 58.84px */
+  padding: 35px 0 10px 0;
 }
