@@ -79,6 +79,7 @@ main {
 
 footer {
   background: #863b74;
+  padding-bottom: 55px;
 }
 
 .intro {
@@ -117,7 +118,6 @@ footer {
 
 .symbol {
   margin-top: 258px;
-  margin-bottom: 121px;
 }
 
 @media (min-width: 991px) {
@@ -149,6 +149,7 @@ footer {
     font-size: 30px;
     font-weight: 700;
     line-height: 164.523%; /* 49.357px */
+    margin-bottom: 245px;
   }
 }
 
@@ -158,10 +159,24 @@ footer {
   font-size: 40px;
   font-weight: 400;
   line-height: 100%; /* 40px */
+  margin-top: 120px;
+}
+
+@media (min-width: 991px) {
+  .title {
+    font-size: 78px;
+    margin: 180px 0 50px 0;
+  }
 }
 
 .title img {
   width: 15%;
+}
+
+@media (min-width: 991px) {
+  .title img {
+    width: 20%;
+  }
 }
 
 .text {
@@ -171,6 +186,14 @@ footer {
   line-height: normal;
   padding-right: 25px;
   margin: 26px 0 76px 0;
+}
+
+@media (min-width: 991px) {
+  .text {
+    font-size: 25px;
+    line-height: 164.5%; /* 41.125px */
+    padding-right: 70px;
+  }
 }
 
 .logo_container {
@@ -216,6 +239,16 @@ footer {
   padding: 35px 0 35px 0;
 }
 
+@media (min-width: 991px) {
+  .display_mole p {
+    color: var(--Beige, var(--beige, #fff8ef));
+    text-align: center;
+    font-family: Taurunum Ferrum;
+    font-size: 112px;
+    line-height: 90.523%; /* 101.385px */
+  }
+}
+
 .display_pan {
   background-color: #ff9e22;
   width: fit-content;
@@ -227,7 +260,25 @@ footer {
   font-family: Taurunum Ferrum;
   font-size: 62px;
   line-height: 90.523%; /* 56.124px */
-  padding: 35px 0 35px 0;
+  padding: 35px 0 10px 0;
+}
+
+@media (min-width: 991px) {
+  .display_pan p {
+    color: var(--Beige, var(--beige, #fff8ef));
+    text-align: center;
+    font-family: Taurunum Ferrum;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90.523%; /* 99.575px */
+  }
+}
+
+@media (max-width: 991px) {
+  .display_pan_img {
+    display: none;
+  }
 }
 
 .display_champurrado {
@@ -242,4 +293,127 @@ footer {
   font-size: 65px;
   line-height: 90.523%; /* 58.84px */
   padding: 35px 0 10px 0;
+}
+
+@media (min-width: 991px) {
+  .display_champurrado p {
+    color: var(--Beige, var(--beige, #fff8ef));
+    text-align: center;
+    font-family: Taurunum Ferrum;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90.523%; /* 99.575px */
+  }
+}
+
+.carajillo {
+  background-color: #df486b;
+  color: var(--Beige, var(--beige, #fff8ef));
+  text-align: center;
+  font-family: Taurunum Ferrum;
+  font-size: 45px;
+  line-height: 90.523%; /* 40.735px */
+}
+
+.paloma {
+  background-color: #863b74;
+  color: var(--Beige, var(--beige, #fff8ef));
+  text-align: center;
+  font-family: Taurunum Ferrum;
+  font-size: 45px;
+  line-height: 90.523%; /* 40.735px */
+}
+
+.margarita {
+  background-color: #5cb5a1;
+  color: var(--Beige, var(--beige, #fff8ef));
+  text-align: center;
+  font-family: Taurunum Ferrum;
+  font-size: 45px;
+  line-height: 90.523%; /* 40.735px */
+}
+
+.jamaica {
+  background-color: #ff9e22;
+  color: var(--Beige, var(--beige, #fff8ef));
+  text-align: center;
+  font-family: Taurunum Ferrum;
+  font-size: 45px;
+  line-height: 90.523%; /* 40.735px */
+}
+
+.mojito {
+  background-color: #863b74;
+  color: var(--Beige, var(--beige, #fff8ef));
+  text-align: center;
+  font-family: Taurunum Ferrum;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90.523%; /* 45.261px */
+}
+
+.horchata {
+  background-color: #df486b;
+  color: var(--Beige, var(--beige, #fff8ef));
+  text-align: center;
+  font-family: Taurunum Ferrum;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90.523%; /* 45.261px */
+}
+
+.michelada {
+  background-color: #5cb5a1;
+  color: var(--Beige, var(--beige, #fff8ef));
+  text-align: center;
+  font-family: Taurunum Ferrum;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90.523%; /* 40.735px */
+}
+
+.button {
+  color: var(--Morado, var(--Morado-Pitaya, #863b74));
+  font-family: Taurunum Ferrum;
+  font-size: 30px;
+  line-height: 164.5%; /* 49.35px */
+  text-align: center;
+  background-color: #ff9e22;
+  padding: 5px 5px 5px 5px;
+  margin: 90px 0 140px 0;
+}
+
+.title_yellow {
+  color: var(--Naranja-Cempasuchil, #ff9e22);
+  font-family: Taurunum Ferrum;
+  font-size: 30px;
+  line-height: 164.5%; /* 49.35px */
+  margin-top: 47px;
+}
+
+@media (min-width: 991px) {
+  .title_yellow {
+    font-size: 78px;
+  }
+}
+
+footer p {
+  color: var(--Beige, var(--beige, #fff8ef));
+  font-family: droid-sans, sans-serif;
+  font-size: 15px;
+}
+
+.socials {
+  margin-top: 47px;
+}
+
+@media (min-width: 991px) {
+  footer p {
+    font-size: 25px;
+    line-height: 164.5%; /* 41.125px */
+  }
 }
