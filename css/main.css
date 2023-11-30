@@ -51,7 +51,7 @@ video {
   margin-top: 15px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .nav {
     display: none;
   }
@@ -62,7 +62,7 @@ video {
   justify-content: flex-end;
 }
 
-@media (min-width: 990px) {
+@media (min-width: 768px) {
   .burger_menu {
     display: none;
   }
@@ -179,6 +179,38 @@ footer {
   }
 }
 
+.title_2 {
+  color: var(--Morado, var(--Morado-Pitaya, #863b74));
+  font-family: Taurunum Ferrum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 100%; /* 40px */
+  margin-top: 120px;
+}
+
+@media (min-width: 991px) {
+  .title_2 {
+    font-size: 78px;
+    margin: 180px 0 50px 0;
+  }
+}
+
+.title_2 img {
+  width: 15%;
+}
+
+@media (min-width: 991px) {
+  .title_2 img {
+    width: 20%;
+  }
+}
+
+@media (min-width: 767px) {
+  .title_2 {
+    margin-top: 60px;
+  }
+}
+
 .text {
   color: var(--Morado, var(--Morado-Pitaya, #863b74));
   font-family: sroid sans, sans-serif;
@@ -275,9 +307,15 @@ footer {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .display_pan_img {
     display: none;
+  }
+}
+
+@media (min-width: 767px) {
+  .display_pan_img {
+    margin-bottom: 260px;
   }
 }
 
