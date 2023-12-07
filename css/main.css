@@ -57,6 +57,33 @@ video {
   }
 }
 
+li {
+  background-image: linear-gradient(
+    to right,
+    #ff9e22 49%,
+    transparent 49% 100%
+  );
+  background-repeat: repeat-x;
+  background-size: 201% 3px;
+  background-position: -100% bottom;
+  padding-bottom: 5px;
+  transition: background-position 0.3s ease-out 0s;
+  line-height: 2;
+  &:hover {
+    animation: line-gradation 0.3s ease-out 0s;
+    background-position: 0 bottom;
+  }
+}
+
+@keyframes line-gradation {
+  0% {
+    background-position: 100% bottom;
+  }
+  100% {
+    background-position: 0 bottom;
+  }
+}
+
 .burger_container {
   display: flex;
   justify-content: flex-end;
@@ -240,7 +267,8 @@ footer {
 
 .header_img_left {
   position: absolute;
-  top: 0;
+  top: 55px;
+  margin-top: 25px;
   right: 0;
   width: 50%;
 }
