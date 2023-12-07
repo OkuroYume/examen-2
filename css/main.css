@@ -572,12 +572,14 @@ footer p {
   }
 }
 
-.nomargin {
-  margin-left: -12px;
-  width: calc(100% + 24px);
-  max-width: none;
-}
+@media (max-width: 771px) {
+  .nomargin {
+    margin-left: -12px;
+    width: calc(100% + 24px);
+    max-width: none;
+  }
 
-.nomargin_2 {
-  padding: 0px;
+  .nomargin_2 {
+    padding: 0px;
+  }
 }
