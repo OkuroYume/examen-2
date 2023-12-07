@@ -453,8 +453,8 @@ footer {
 
 .small_display_img {
   position: absolute;
-  width: 75%;
-  right: 10%;
+  width: 60%;
+  right: 20%;
 }
 
 .button {
@@ -464,7 +464,7 @@ footer {
   line-height: 164.5%; /* 49.35px */
   text-align: center;
   background-color: #ff9e22;
-  padding: 5px 5px 5px 5px;
+  padding: 5px 0 5px 0;
   flex-grow: 1;
   display: flex;
   justify-content: center;
@@ -481,7 +481,7 @@ footer {
   width: 0px;
   height: 0px;
   border-style: solid;
-  border-width: 37px 0 37px 35px;
+  border-width: 29px 0 30px 35px;
   border-color: transparent transparent transparent #ff9e22;
   transform: rotate(0deg);
 }
@@ -490,7 +490,7 @@ footer {
   width: 0px;
   height: 0px;
   border-style: solid;
-  border-width: 37px 35px 37px 0;
+  border-width: 29px 35px 30px 0;
   border-color: transparent #ff9e22 transparent transparent;
   transform: rotate(0deg);
 }
@@ -498,7 +498,7 @@ footer {
 .title_yellow {
   color: var(--Naranja-Cempasuchil, #ff9e22);
   font-family: Taurunum Ferrum;
-  font-size: 28px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -510,6 +510,7 @@ footer {
   flex-direction: row;
   margin: 90px 0 140px 0;
   justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 991px) {
@@ -526,7 +527,7 @@ footer p {
 
 .socials {
   margin-top: 50px;
-  width: 70%;
+  width: 85%;
 }
 
 @media (min-width: 991px) {
