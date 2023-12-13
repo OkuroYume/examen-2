@@ -110,11 +110,6 @@ main {
   background: #fff8ef;
 }
 
-footer {
-  background: #863b74;
-  padding-bottom: 190px;
-}
-
 .intro {
   color: var(--beige, #fff8ef);
   font-family: droid-sans, sans-serif;
@@ -501,7 +496,33 @@ footer {
 
 @media (min-width: 991px) {
   .button {
-    font-size: 70px;
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 771px) {
+  .nomargin {
+    margin-left: -12px;
+    width: calc(100% + 24px);
+    max-width: none;
+  }
+
+  .nomargin_2 {
+    padding: 0px;
+  }
+}
+
+.button_container {
+  display: flex;
+  flex-direction: row;
+  margin: 90px 0 140px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 991px) {
+  .button_container {
+    margin: 224px 0 400px 0;
   }
 }
 
@@ -523,6 +544,37 @@ footer {
   transform: rotate(0deg);
 }
 
+@media (min-width: 991px) {
+  .triangle_2 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 58px 60px 50px 0;
+    transform: rotate(0deg);
+  }
+}
+
+@media (min-width: 991px) {
+  .triangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 58px 0 50px 60px;
+    transform: rotate(0deg);
+  }
+}
+
+footer {
+  background: #863b74;
+  padding-bottom: 190px;
+}
+
+footer p {
+  color: var(--Beige, var(--beige, #fff8ef));
+  font-family: droid-sans, sans-serif;
+  font-size: 15px;
+}
+
 .title_yellow {
   color: var(--Naranja-Cempasuchil, #ff9e22);
   font-family: Taurunum Ferrum;
@@ -533,29 +585,21 @@ footer {
   margin-top: 47px;
 }
 
-.button_container {
-  display: flex;
-  flex-direction: row;
-  margin: 90px 0 140px 0;
-  justify-content: center;
-  align-items: center;
-}
-
 @media (min-width: 991px) {
   .title_yellow {
     font-size: 78px;
   }
 }
 
-footer p {
-  color: var(--Beige, var(--beige, #fff8ef));
-  font-family: droid-sans, sans-serif;
-  font-size: 15px;
-}
-
 .socials {
   margin-top: 50px;
   width: 85%;
+}
+
+@media (min-width: 771px) {
+  .socials {
+    width: 300px;
+  }
 }
 
 @media (min-width: 991px) {
@@ -569,17 +613,5 @@ footer p {
 @media (max-width: 771px) {
   footer p {
     padding-top: 15px;
-  }
-}
-
-@media (max-width: 771px) {
-  .nomargin {
-    margin-left: -12px;
-    width: calc(100% + 24px);
-    max-width: none;
-  }
-
-  .nomargin_2 {
-    padding: 0px;
   }
 }
