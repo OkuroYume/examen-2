@@ -28,10 +28,6 @@ body {
   line-height: 1.25;
 }
 
-a {
-  color: inherit;
-}
-
 img,
 video {
   max-inline-size: 100%;
@@ -384,6 +380,32 @@ main {
   }
 }
 
+@media (min-width: 991px) {
+  .carajillo p,
+  .paloma p,
+  .margarita p,
+  .jamaica p,
+  .mojito p,
+  .horchata p,
+  .michelada p {
+    font-size: 80px;
+    line-height: 90.523%; /* 72.418px */
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 767px) {
+  .paloma,
+  .carajillo,
+  .margarita,
+  .jamaica,
+  .mojito,
+  .horchata,
+  .michelada {
+    aspect-ratio: 1;
+  }
+}
+
 .carajillo {
   background-color: #df486b;
   color: var(--Beige, var(--beige, #fff8ef));
@@ -394,6 +416,13 @@ main {
   position: relative;
   padding: 10px;
   width: fit-content;
+}
+
+@media (min-width: 991px) {
+  .carajillo img {
+    width: 250px;
+    padding: 30px 0 0 30px;
+  }
 }
 
 .paloma {
@@ -408,6 +437,13 @@ main {
   width: fit-content;
 }
 
+@media (min-width: 991px) {
+  .paloma img {
+    width: 250px;
+    padding: 45px 0 0 30px;
+  }
+}
+
 .margarita {
   background-color: #5cb5a1;
   color: var(--Beige, var(--beige, #fff8ef));
@@ -420,6 +456,13 @@ main {
   width: fit-content;
 }
 
+@media (min-width: 991px) {
+  .margarita img {
+    width: 250px;
+    padding-top: 20px;
+  }
+}
+
 .jamaica {
   background-color: #ff9e22;
   color: var(--Beige, var(--beige, #fff8ef));
@@ -430,6 +473,14 @@ main {
   position: relative;
   padding: 10px;
   width: fit-content;
+  overflow: hidden;
+}
+
+@media (min-width: 991px) {
+  .jamaica img {
+    width: 200px;
+    padding-top: 20px;
+  }
 }
 
 .mojito {
@@ -446,6 +497,13 @@ main {
   width: fit-content;
 }
 
+@media (min-width: 991px) {
+  .mojito img {
+    width: 185px;
+    padding: 35px 20px 0 0;
+  }
+}
+
 .horchata {
   background-color: #df486b;
   color: var(--Beige, var(--beige, #fff8ef));
@@ -460,6 +518,13 @@ main {
   width: fit-content;
 }
 
+@media (min-width: 991px) {
+  .horchata img {
+    width: 330px;
+    padding: 25px 0 0 60px;
+  }
+}
+
 .michelada {
   background-color: #5cb5a1;
   color: var(--Beige, var(--beige, #fff8ef));
@@ -472,6 +537,12 @@ main {
   position: relative;
   padding: 10px;
   width: fit-content;
+}
+
+@media (min-width: 991px) {
+  .michelada img {
+    padding-top: 20px;
+  }
 }
 
 .small_display_img {
