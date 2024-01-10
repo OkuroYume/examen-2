@@ -179,7 +179,7 @@ main {
 
 .title {
   color: var(--Morado, var(--Morado-Pitaya, #863b74));
-  font-family: Taurunum Ferrum;
+  font-family: taurunum-ferrum-iron;
   font-size: 40px;
   font-weight: 400;
   line-height: 100%; /* 40px */
@@ -205,7 +205,7 @@ main {
 
 .title_2 {
   color: var(--Morado, var(--Morado-Pitaya, #863b74));
-  font-family: Taurunum Ferrum;
+  font-family: taurunum-ferrum-iron;
   font-size: 40px;
   font-weight: 400;
   line-height: 100%; /* 40px */
@@ -285,7 +285,7 @@ main {
 .display_mole > p {
   color: var(--Beige, var(--beige, #fff8ef));
   text-align: center;
-  font-family: Taurunum Ferrum;
+  font-family: taurunum-ferrum-iron;
   font-size: 59px;
   line-height: 90.523%; /* 53.408px */
   padding: 35px 0 35px 0;
@@ -310,7 +310,7 @@ main {
 .hover_title {
   color: var(--Beige, var(--beige, #fff8ef));
   text-align: center;
-  font-family: Taurunum Ferrum;
+  font-family: taurunum-ferrum-iron;
   font-size: 105px;
   line-height: 90.523%; /* 101.385px */
   padding-top: 50px;
@@ -326,7 +326,7 @@ main {
 
 .hover_subtitle {
   color: #fff;
-  font-family: Taurunum Ferrum;
+  font-family: taurunum-ferrum-iron;
   font-size: 45px;
   line-height: 164.5%; /* 74.025px */
   padding: 0 0 0 70px;
@@ -351,7 +351,7 @@ main {
   .display_mole > p {
     color: var(--Beige, var(--beige, #fff8ef));
     text-align: center;
-    font-family: Taurunum Ferrum;
+    font-family: taurunum-ferrum-iron;
     font-size: 112px;
     line-height: 90.523%; /* 101.385px */
   }
@@ -366,7 +366,7 @@ main {
 .display_pan p {
   color: var(--Beige, var(--beige, #fff8ef));
   text-align: center;
-  font-family: Taurunum Ferrum;
+  font-family: taurunum-ferrum-iron;
   font-size: 62px;
   line-height: 90.523%; /* 56.124px */
   padding: 35px 0 10px 0;
@@ -376,7 +376,7 @@ main {
   .display_pan p {
     color: var(--Beige, var(--beige, #fff8ef));
     text-align: center;
-    font-family: Taurunum Ferrum;
+    font-family: taurunum-ferrum-iron;
     font-size: 110px;
     font-style: normal;
     font-weight: 400;
@@ -403,7 +403,7 @@ main {
 .display_champurrado p {
   color: var(--Beige, var(--beige, #fff8ef));
   text-align: center;
-  font-family: Taurunum Ferrum;
+  font-family: taurunum-ferrum-iron;
   font-size: 62px;
   line-height: 90.523%; /* 58.84px */
   padding: 35px 0 10px 0;
@@ -413,7 +413,7 @@ main {
   .display_champurrado p {
     color: var(--Beige, var(--beige, #fff8ef));
     text-align: center;
-    font-family: Taurunum Ferrum;
+    font-family: taurunum-ferrum-iron;
     font-size: 110px;
     font-style: normal;
     font-weight: 400;
@@ -451,7 +451,7 @@ main {
   background-color: #df486b;
   color: var(--Beige, var(--beige, #fff8ef));
   text-align: center;
-  font-family: Taurunum Ferrum;
+  font-family: taurunum-ferrum-iron;
   font-size: 45px;
   line-height: 90.523%; /* 40.735px */
   position: relative;
@@ -470,7 +470,7 @@ main {
   background-color: #863b74;
   color: var(--Beige, var(--beige, #fff8ef));
   text-align: center;
-  font-family: Taurunum Ferrum;
+  font-family: taurunum-ferrum-iron;
   font-size: 45px;
   line-height: 90.523%; /* 40.735px */
   position: relative;
@@ -489,7 +489,7 @@ main {
   background-color: #5cb5a1;
   color: var(--Beige, var(--beige, #fff8ef));
   text-align: center;
-  font-family: Taurunum Ferrum;
+  font-family: taurunum-ferrum-iron;
   font-size: 45px;
   line-height: 90.523%; /* 40.735px */
   position: relative;
@@ -508,7 +508,7 @@ main {
   background-color: #ff9e22;
   color: var(--Beige, var(--beige, #fff8ef));
   text-align: center;
-  font-family: Taurunum Ferrum;
+  font-family: taurunum-ferrum-iron;
   font-size: 45px;
   line-height: 90.523%; /* 40.735px */
   position: relative;
@@ -528,7 +528,7 @@ main {
   background-color: #863b74;
   color: var(--Beige, var(--beige, #fff8ef));
   text-align: center;
-  font-family: Taurunum Ferrum;
+  font-family: taurunum-ferrum-iron;
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
@@ -549,7 +549,7 @@ main {
   background-color: #df486b;
   color: var(--Beige, var(--beige, #fff8ef));
   text-align: center;
-  font-family: Taurunum Ferrum;
+  font-family: taurunum-ferrum-iron;
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
@@ -570,7 +570,7 @@ main {
   background-color: #5cb5a1;
   color: var(--Beige, var(--beige, #fff8ef));
   text-align: center;
-  font-family: Taurunum Ferrum;
+  font-family: taurunum-ferrum-iron;
   font-size: 45px;
   font-style: normal;
   font-weight: 400;
@@ -594,7 +594,7 @@ main {
 
 .button {
   color: var(--Morado, var(--Morado-Pitaya, #863b74));
-  font-family: Taurunum Ferrum;
+  font-family: taurunum-ferrum-iron;
   font-size: 30px;
   line-height: 164.5%; /* 49.35px */
   text-align: center;
@@ -689,7 +689,7 @@ footer p {
 
 .title_yellow {
   color: var(--Naranja-Cempasuchil, #ff9e22);
-  font-family: Taurunum Ferrum;
+  font-family: taurunum-ferrum-iron;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
